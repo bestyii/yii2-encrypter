@@ -1,0 +1,30 @@
+{
+  "name": "bestyii/yii2-encrypter",
+  "description": "Encryption data for Yii2",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "bestyii.com",
+    "extension",
+    "encrypt",
+    "decrypt",
+    "openssl_encrypt",
+    "encrypter",
+    "security"
+  ],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "ezsky",
+      "email": "ez@bestyii.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "^2.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "bestyii\\encrypter\\": "src"
+    }
+  }
+}
